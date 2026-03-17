@@ -138,26 +138,22 @@ WeasyPrint – PDF report generation
 # Project Structure
 
 ```
-red-team-recon
+red-team-recon-automation-toolkit/
 │
 ├── recon/
-│   ├── directory_enum.py
-│   ├── live_hosts.py
-│   ├── port_scan.py
-│   ├── risk_engine.py
-│   ├── subdomain.py
-│   └── tech_fingerprint.py
-│
-├── reports/
-├── static/css/style.css
 ├── templates/
+├── static/
+├── reports/
+├── images/
 │
 ├── app.py
 ├── config.py
 ├── database.py
 ├── init_db.py
+├── README.md
 ├── requirements.txt
-└── README.md
+├── .gitignore
+└── LICENSE
 ```
 
 ---
