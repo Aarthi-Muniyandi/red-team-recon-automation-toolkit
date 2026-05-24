@@ -31,6 +31,7 @@ The Red Team Recon Automation Toolkit addresses these challenges by automating a
 + Unified target scanning pipeline
 + Reduced manual enumeration effort
 + Multiple Scan Modes
+  
 **Simple Scan**
 
 Fast reconnaissance for quick attack surface discovery.
@@ -47,55 +48,78 @@ Comprehensive enumeration and detailed service analysis.
 + Directory Enumeration
 + Web Technology Fingerprinting
 + DNS & WHOIS Enumeration
+  
   **CVSS-Based Risk Scoring**
+  
 + Automated risk evaluation
 + Vulnerability severity prioritization
 + Structured attack surface analysis
+  
   **Web Dashboard**
+  
 + Scan management interface
 + Real-time scan visualization
 + Centralized result aggregation
+  
   **Automated Report Generation**
+  
 + HTML report export
 + PDF report generation
 + Structured reconnaissance summaries
   
 # System Workflow
+
 Target Input
+
       ↓
+      
 Recon Module Execution
+
       ↓
+      
 Data Aggregation
+
       ↓
+      
 Risk Evaluation (CVSS)
+
       ↓
+      
 Report Generation
 
+
 # System Architecture
+
 **Core Components**
 + Web Interface (Flask)
 + Recon Engine
 + Data Aggregation Layer
 + Risk Analysis Engine
 + Reporting Module
+  
 **Technology Stack**
+
 **Backend**
-Python
-Flask Framework
++ Python
++ Flask Framework
+  
 **Frontend**
-HTML
-CSS
-JavaScript
++ HTML
++ CSS
++ JavaScript
+  
 **Database**
-SQLite
++ SQLite
+  
 **Integrated Tools & Libraries**
-Nmap
-Requests
-BeautifulSoup
-Regex
-JSON
-WeasyPrint
-Python-Nmap
++ Nmap
++ Requests
++ BeautifulSoup
++Regex
++ JSON
++ WeasyPrint
++ Python-Nmap
+  
 # Recon Modules
 | **Module** | **Function** |
 | ---------- | ------------ |
@@ -109,20 +133,35 @@ Python-Nmap
 # Project Structure
 red-team-recon-automation-toolkit/
 │
+
 ├── recon/
+
 ├── templates/
+
 ├── static/
+
 ├── reports/
+
 ├── images/
+
 │
+
 ├── app.py
+
 ├── config.py
+
 ├── database.py
+
 ├── init_db.py
+
 ├── requirements.txt
+
 ├── README.md
+
 ├── LICENSE
+
 └── .gitignore
+
 
 **Installation**
 **Clone Repository**
@@ -206,4 +245,5 @@ Licensed under the MIT License.
 # Author
 
 Aarthi M
+
 Cybersecurity Student | Red Teaming Enthusiast
